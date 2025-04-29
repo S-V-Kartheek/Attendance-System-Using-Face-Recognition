@@ -60,6 +60,7 @@ Edit
  ├── README.md  
  ├── .gitignore  
  └── venv  
+ ------------------------------------------------------------------------------------------------------------------------------------------------------
 📸 How It Works
 Teacher Login:
 Teachers log in securely using OTP verification to prevent unauthorized access.
@@ -75,51 +76,36 @@ Students not detected are emailed an absentee notification after the session.
 
 Data Storage & Export:
 Attendance data is saved into a database and can be exported as an Excel file for reports.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 🧑‍💻 Installation
 Clone the repository
+  git clone https://github.com/your-username/Ai-Attendance-System.git
+  cd Ai-Attendance-System
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/Ai-Attendance-System.git
-cd Ai-Attendance-System
 Create a virtual environment
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+  python -m venv venv
+  source venv/bin/activate  # Linux/Mac
+  venv\Scripts\activate     # Windows
+  
 Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
+  pip install -r requirements.txt
+  
 Configure Email Settings
-Set up your email credentials inside backend/services/email_service.py.
+  Set up your email credentials inside backend/services/email_service.py.
 
 Run the application
-
-bash
-Copy
-Edit
-python app.py
+  python app.py
+  
 Access the app
-Open http://localhost:5000 in your browser.
+  Open http://localhost:5000 in your browser.
 
 ✅ Future Enhancements
 📱 Mobile App Integration
 
 🌐 Cloud-based Face Storage
 
-🔒 Advanced Liveness Detection (Blink detection, 3D face map)
-
 📢 Voice Confirmation for Students
 
-📅 Google Calendar Integration for Class Scheduling
 
 🤝 Contribution
 Contributions, issues, and feature requests are welcome!
